@@ -1,0 +1,6 @@
+{
+  "name": "Indian Calorie Tracker",
+  "description": "A beautiful, minimalist mobile-first calorie, weight, and body fat tracker with an extensive Indian food database, offline support, and dynamic calorie needs calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
