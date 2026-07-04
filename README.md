@@ -2,11 +2,11 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Indian Calorie Tracker (AaharSutra)
 
-This contains everything you need to run your app locally.
+Track calories for Indian foods, calculate daily calorie needs, log meals + weight, and view summaries/analytics.
 
-View your app in AI Studio: https://ai.studio/apps/e98cdc0f-2093-4b8b-82c5-2b7cf0915f2e
+This repo contains everything you need to run the app locally.
 
 ## Run Locally
 
@@ -14,8 +14,8 @@ View your app in AI Studio: https://ai.studio/apps/e98cdc0f-2093-4b8b-82c5-2b7cf
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+   (Not required for this version) If you add an AI backend later, you can set keys in [.env.local](.env.local).
+2. Run the app:
    `npm run dev`
 
 ## Backend (Node.js + MySQL)
