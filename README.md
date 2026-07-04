@@ -1,31 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+ AaharSutra – Indian Calorie Tracker
 
-# Indian Calorie Tracker (AaharSutra)
+A beautiful, mobile-first calorie and nutrition tracker built specifically for Indian food. 
+Search from a curated database of traditional Indian dishes, log your meals, track macros 
+(protein, carbs, fat), monitor your weight over time, and calculate your personalized daily 
+calorie needs — all wrapped in a vibrant, culturally-inspired design.
 
-Track calories for Indian foods, calculate daily calorie needs, log meals + weight, and view summaries/analytics.
+ Features
 
-This repo contains everything you need to run the app locally.
+Smart Food Search
+Search and filter across Indian food categories (Roti, Rice, Dal, Sabzi, Snacks, Sweets, Beverages)
+- Daily Summary Dashboard- Track calories, protein, carbs, and fat against your daily goals
+- Weight & Body Fat Analytics-Visualize your progress with interactive charts
+- Calorie Needs Calculator-Get your BMR/TDEE based on your body stats and activity level
+- Dynamic Indian Themes-Rotating color palettes inspired by Jaipur, Kerala, Kashmir, and Mughal aesthetics
 
-## Run Locally
+- Dark Mode Support
 
-**Prerequisites:** Node.js
+ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-   (Not required for this version) If you add an AI backend later, you can set keys in [.env.local](.env.local).
-2. Run the app:
-   `npm run dev`
+- Frontend: React, TypeScript, Vite, Tailwind CSS
+- Backend: Node.js, Express
+- Database: MySQL
 
-## Backend (Node.js + MySQL)
+##  Run Locally
 
-A minimal Express backend is provided in the `server/` folder. See [server/README.md](server/README.md#L1) for setup and SQL schema.
+Prerequisites: Node.js, MySQL
 
-Start the backend (after creating `.env` and DB):
+### 1. Frontend Setup
+```bash
+npm install
+npm run dev
+```
+
+### 2. Backend Setup
+A minimal Express backend is provided in the `server/` folder. See [server/README.md](server/README.md) for full setup and SQL schema.
 
 ```bash
 cd server
 npm install
 npm run dev
 ```
+
+Make sure to create a `.env` file in the `server/` folder with your MySQL credentials before starting the backend.
