@@ -1,9 +1,12 @@
  AaharSutra – Indian Calorie Tracker
+ 
+ https://indian-calorie-tracker-919245296728.asia-southeast1.run.app/
 
 A beautiful, mobile-first calorie and nutrition tracker built specifically for Indian food. 
 Search from a curated database of traditional Indian dishes, log your meals, track macros 
 (protein, carbs, fat), monitor your weight over time, and calculate your personalized daily 
 calorie needs — all wrapped in a vibrant, culturally-inspired design.
+
 
  Features
 
